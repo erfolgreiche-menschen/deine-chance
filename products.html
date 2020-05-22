@@ -7,7 +7,7 @@ http://www.templatemo.com/preview/templatemo_385_floral_shop
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Floral HTML CSS Template</title>
+<title>Products - Floral Template</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
@@ -46,26 +46,23 @@ function clearText(field)
 
 </script>
 
-<link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" /> 
-<script type="text/JavaScript" src="js/slimbox2.js"></script> 
-
 
 </head>
 
 <body>
 
-<div id="templatemo_wrapper_h">
-<div id="templatemo_header_wh">
-	<div id="templatemo_header" class="header_home">
+<div id="templatemo_wrapper_sp">
+<div id="templatemo_header_wsp">
+	<div id="templatemo_header" class="header_subpage">
     	<div id="site_title"><a href="#">Floral Shop</a></div>
         <div id="templatemo_menu" class="ddsmoothmenu">
             <ul>
-                <li><a href="index.html" class="selected">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a>
+                <li><a href="products.html" class="selected">Products</a>
                     <ul>
 
-                  	</ul>
+                  </ul>
                 </li>
                 <li><a href="checkout.html">Checkout</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -80,31 +77,7 @@ function clearText(field)
             </div>
             <br style="clear: left" />
         </div> <!-- end of templatemo_menu -->
-
-        <div class="slider-wrapper theme-orman">
-            <div class="ribbon"></div>
-            <div id="slider" class="nivoSlider">
-                <img src="images/portfolio/01.jpg" alt="slider image 1" />
-                <a href="#">
-                	<img src="images/portfolio/02.jpg" alt="slider image 2" title="This is an example of a caption" />
-                </a>
-                <img src="images/portfolio/03.jpg" alt="slider image 3" />
-                <img src="images/portfolio/04.jpg" alt="slider image 4" title="#htmlcaption" />
-                <img src="images/portfolio/05.jpg" alt="slider image 5" title="#htmlcaption" />
-            </div>
-            <div id="htmlcaption" class="nivo-html-caption">
-                <strong>Example</strong> caption with <a href="http://dev7studios.com" rel="nofollow">a credit link</a> for <em>this slider</em>.
-            </div>
-        </div> 
-		<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
-        <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
-        <script type="text/javascript">
-        $(window).load(function() {
-            $('#slider').nivoSlider({
-				controlNav:false
-			});
-        });
-        </script>
+        
     </div> <!-- END of header -->
 </div> <!-- END of header wrapper -->
 <div id="templatemo_main_wrapper">
@@ -114,7 +87,7 @@ function clearText(field)
             <h3>Categories</h3>   
             <div class="content"> 
                 <ul class="sidebar_list">
-
+            
                 </ul>
             </div>
         </div>
@@ -133,10 +106,15 @@ function clearText(field)
     </div>
     
     <div id="content" class="right">
-		<h2>Welcome to Floral Shop</h2>
-		<p>Flower Studio ofrece flores recién cortadas y plantas en macetas en una amplia gama. Garantizamos la larga vida de todas las composiciones, ya que compramos flores a proveedores confiables y realizamos un estricto control de calidad en cada etapa. El sistema logístico desarrollado permite en poco tiempo el transporte de las flores a nuestro estudio de las flores. Las flores cortadas se almacenan a temperatura óptima y nivel de humedad.</p>
-        
-        <div class="product_box">
+		<h2>Products</h2>
+        <p>
+		Nuestra tienda de flores personalizadas para Usted puede cumplir:
+La composición de los Ramos originales y los arreglos florales;
+Floristika de la boda: los Ramos únicos de la novia, la formalización de los salones de banquetes, las coronas para las novias, las pulseras a las Damas de honor, los boutonnieres, la formalización de las zonas fotográficas, el Alquiler de los arcos de boda y las decoraciones;
+Cajas de sombreros de rosas, arreglos en cajas de madera;
+Hacer tarjetas de felicitación hechas a mano;</p>
+
+  <div class="product_box">
             <a href="productdetail.html"><img src="images/product/01.jpg" alt="floral set 1" /></a>
       		<h3>Ut eu feugiat</h3>
             <p class="product_price">$240</p>
@@ -209,8 +187,12 @@ function clearText(field)
                 <a href="shoppingcart.html">Add to Cart</a>
             </p>
         </div>
-        
         <div class="blank_box">
+        	<a href="#" class="button left">Previous</a> 
+            <a href="#" class="button right">Next Page</a>
+        </div>
+        <div class="cleaner h20"></div>
+    	<div class="blank_box">
         	<a href="#"><img src="images/free_shipping.jpg" alt="Free Shipping" /></a>
         </div>    
     </div>
