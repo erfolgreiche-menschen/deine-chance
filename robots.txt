@@ -7,6 +7,7 @@ Disallow: /tilda/popup*
 Disallow: /tilda/cart*
 Disallow: /tilda/product*
 Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
 Disallow:
-Sitemap: http://itstimetoshop.github.io/sitemap.xml
-Host: itstimetoshop.github.io
+Sitemap: http://financial-literacy-for-all.tilda.ws/sitemap.xml
+Host: financial-literacy-for-all.tilda.ws
